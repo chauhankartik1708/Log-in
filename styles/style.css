@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/newyork.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.pic{
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+
+.loginbox {
+    width: 420px;
+    height: 520px;
+    background-color: rgb(0, 0, 0,.6);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+.loginbox h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    font-size: 18px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    background: #959697;
+    color:rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.loginbox a {
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 16px;
+    color: floralwhite; 
+}
+
+.loginbox a:hover {
+    color: yellow;
+}
