@@ -82,3 +82,13 @@ body {
 .loginbox a:hover {
     color: yellow;
 }
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  .loginbox {
+    width: 80%;
+    height: 70%;
+}
+}
